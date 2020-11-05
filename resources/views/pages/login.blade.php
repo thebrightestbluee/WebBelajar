@@ -1,7 +1,7 @@
 <?
 @extends('layouts.app')
-@section('judul_halaman', 'Halaman Utama')
-@section('title', 'WebBelajar | Home')
+
+@section('title', 'WebBelajar | Login')
 
 
 @section('konten')

@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
-
+    <link href="tools/images/favicon.ico" rel="icon">
     <link rel="shortcut icon" href="tools/favicon.ico">
 
     <link rel="stylesheet" href="tools/css/open-iconic-bootstrap.min.css">
@@ -38,18 +38,17 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
             <div class="container">
+                <a class="navbar-brand" href="{{asset('main')}}"><img src="tools/images/favicon (1).ico" height="50px" width="50px">WebBelajar</a>
 
-                <a class="navbar-brand" href="index.html">WebBelajar</a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="oi oi-menu"></span> Menu
                 </button>
                 <div class="collapse navbar-collapse" id="ftco-nav">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a href="{{ route('login') }}" class="nav-link icon d-flex align-items-center"><i class="ion-ios-cloud-download mr-2"></i> Login</a></li>
+                        <li class="nav-item"><a href="{{asset('login')}}" class="nav-link icon d-flex align-items-center"><i class="ion-ios-cloud-download mr-2"></i> Login</a></li>
                         <li class="nav-item"><a href="#" class="nav-link icon d-flex align-items-center"><i class="ion-ios-cloud-download mr-2"></i> Download</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link icon d-flex align-items-center"><i class="ion-logo-facebook"></i></a></li>
-                        <li class="nav-item"><a href="#" class="nav-link icon d-flex align-items-center"><i class="ion-logo-twitter"></i></a></li>
+                        <li class="nav-item"><a href="https://twitter.com/akun_ambiss_" class="nav-link icon d-flex align-items-center"><i class="ion-logo-twitter"></i></a></li>
                         <li class="nav-item"><a href="#" class="nav-link icon d-flex align-items-center"><i class="ion-logo-instagram"></i></a></li>
                     </ul>
                 </div>
@@ -69,6 +68,7 @@
                 </div>
             </div>
         </section>
+        @yield('konten2')
 
 
 
