@@ -49,7 +49,8 @@
                         <li class="nav-item"><a href="{{asset('login')}}" class="nav-link icon d-flex align-items-center"><i class="ion-ios-cloud-download mr-2"></i> Login</a></li>
                         <li class="nav-item"><a href="#" class="nav-link icon d-flex align-items-center"><i class="ion-ios-cloud-download mr-2"></i> Download</a></li>
                         <li class="nav-item"><a href="https://twitter.com/akun_ambiss_" class="nav-link icon d-flex align-items-center"><i class="ion-logo-twitter"></i></a></li>
-                        <li class="nav-item"><a href="#" class="nav-link icon d-flex align-items-center"><i class="ion-logo-instagram"></i></a></li>
+                        <li class="nav-item"><a href="https://instagram.com/rd06__" class="nav-link icon d-flex align-items-center"><i class="ion-logo-instagram"></i></a></li>
+                        <li class="nav-item"><a href="https://github.com/thebrightestbluee" class="nav-link icon d-flex align-items-center"><i class="ion-logo-github"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -61,8 +62,8 @@
                 <div class="row description js-fullheight align-items-center justify-content-center">
                     <div class="col-md-8 text-center">
                         <div class="text">
-                            <h1>@yield('judul_halaman')</h1>
-                            <h4 class="mb-5">@yield('konten')</h4>
+                            <h2>@yield('judul_halaman')</h2>
+                            <h1>@yield('konten')</h1>
                         </div>
                     </div>
                 </div>
@@ -113,6 +114,7 @@
     <script src="tools/js/moment-with-locales.min.js"></script>
     <script src="tools/js/bootstrap-datetimepicker.min.js"></script>
     <script src="tools/js/main.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
 </body>
 

@@ -1,13 +1,12 @@
 <?
 @extends('layouts.app')
-@section('judul_halaman', 'Halaman Utama')
+@section('judul_halaman', 'Selamat Datang')
 @section('title', 'WebBelajar | Home')
 
 
 @section('konten')
-
-<h2>Selamat Datang</h2>
-<h2>Di WebBelajar</h2>
+<p>Di</p>
+WebBelajar
 @endsection
 
 
@@ -17,7 +16,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h2 class="heading-section mb-4 pb-md-3">
-							Cards Styles
+							Materi yang ada di WB
 						</h2>
 					</div>
 				</div>
