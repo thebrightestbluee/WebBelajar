@@ -33,7 +33,7 @@ WebBelajar
 				  				<div class="card-body">
 						  <center>
 						  <h5 class="card-title">Kelas 10</h5>
-						  <a href="#" class="btn btn-primary">Go somewhere</a>
+						  <a href="#" class="btn btn-primary">Buka</a>
 						  </center>
 					   </div>
 							</div>
@@ -44,7 +44,7 @@ WebBelajar
 						  <div class="card-body">
 						  <center>
 						  <h5 class="card-title">Kelas 11</h5>
-						  <a href="#" class="btn btn-primary">Go somewhere</a>
+						  <a href="#" class="btn btn-primary">Buka</a>
 						  </center>
 					   </div>
 						</div>
@@ -55,7 +55,7 @@ WebBelajar
 					  <div class="card-body">
 						  <center>
 						  <h5 class="card-title">Kelas 12</h5>
-						  <a href="#" class="btn btn-primary">Go somewhere</a>
+						  <a href="#" class="btn btn-primary">Buka</a>
 						  </center>
 					   </div>
 					</div>
