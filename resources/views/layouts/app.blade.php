@@ -53,7 +53,7 @@
                 <div class="collapse navbar-collapse" id="ftco-nav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a href="{{asset('login')}}" class="nav-link icon d-flex align-items-center"><i class="ion-ios-cloud-download mr-2"></i> Login</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link icon d-flex align-items-center"><i class="ion-ios-cloud-download mr-2"></i> Download</a></li>
+
                         <li class="nav-item"><a href="https://twitter.com/akun_ambiss_" class="nav-link icon d-flex align-items-center"><i class="ion-logo-twitter"></i></a></li>
                         <li class="nav-item"><a href="https://instagram.com/rd06__" class="nav-link icon d-flex align-items-center"><i class="ion-logo-instagram"></i></a></li>
                         <li class="nav-item"><a href="https://github.com/thebrightestbluee" class="nav-link icon d-flex align-items-center"><i class="ion-logo-github"></i></a></li>
@@ -77,15 +77,6 @@
             </div>
         </section>
         @yield('konten2')
-
-
-
-
-
-
-
-
-
         <footer class="ftco-section ftco-section-2">
             <div class="col-md-12 text-center">
                 <p class="mb-0">
@@ -126,3 +117,5 @@
 </body>
 
 </html>
+<? <?php //<li class="nav-item"><a href="#" class="nav-link icon d-flex align-items-center"><i class="ion-ios-cloud-download mr-2"></i> Download</a></li> 
+    ?>

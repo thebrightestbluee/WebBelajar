@@ -11,3 +11,4 @@ Route::get('/', function () {
 
 Route::get('/main', [ArticleController::class, 'index']);
 Route::get('/login', [ArticleController::class, 'login']);
+Route::get('/10', [ArticleController::class, 'kelas10']);

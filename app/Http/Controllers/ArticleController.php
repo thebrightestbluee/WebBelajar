@@ -14,4 +14,8 @@ class ArticleController extends Controller
     {
         return view('pages.login');
     }
+    public function kelas10()
+    {
+        return view('pages.10');
+    }
 }

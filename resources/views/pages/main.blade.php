@@ -33,7 +33,7 @@ WebBelajar
 				  				<div class="card-body">
 						  <center>
 						  <h5 class="card-title">Kelas 10</h5>
-						  <a href="#" class="btn btn-primary">Buka</a>
+						  <a href="{{asset('10')}}" class="btn btn-primary">Buka</a>
 						  </center>
 					   </div>
 							</div>
