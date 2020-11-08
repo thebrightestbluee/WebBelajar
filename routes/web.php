@@ -19,6 +19,6 @@ Route::get('/10', [ArticleController::class, 'kelas10']);
 Route::get('/11', [ArticleController::class, 'kelas11']);
 Route::get('/12', [ArticleController::class, 'kelas12']);
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+Route::middleware(['auth:sanctum', 'verified'])->get('/dasnphboard', function () {
     return view('dashboard');
 })->name("dashboard");
